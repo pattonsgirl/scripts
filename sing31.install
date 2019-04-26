@@ -4,7 +4,9 @@ echo "This script will install syslabs singularity 3.1"
 echo "according to instructions on GitHub"
 
 echo "Install pre-reqs..."
-apt install -y build-essential \
+apt install -y git \
+		curl \
+		build-essential \
 		libssl-dev \
 		uuid-dev \
 		libgpgme11-dev \
@@ -30,7 +32,7 @@ mkdir -p ${GOPATH}/src/github.com/sylabs && \
 		cd ${GOPATH}/src/github.com/sylabs && \
   		git clone https://github.com/sylabs/singularity.git && \
 		cd singularity
-git checkout v3.2.0
+git checkout v3.1.1
 
 echo "Compiling singularity... "
 cd ${GOPATH}/src/github.com/sylabs/singularity && \
