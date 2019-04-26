@@ -1,6 +1,6 @@
 # UEFI / Secure Boot & VirtualBox
 ## Linux Host, Windows 10 Client
-* At time of writing, apt install virtualbox installed version 5.2.18
+* At time of writing, `apt install virtualbox` installed version 5.2.18
 
 ### Fixing crash reports
 * Note: This fixes System Crash reports after installing virtualbox \
