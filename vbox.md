@@ -2,14 +2,14 @@
 ## Linux Host, Windows 10 Client
 ### Fixing crash reports
 * Note: This fixes System Crash reports after installing virtualbox \
-I do not disable future crash reports by fixing this \ 
-`sudo ls /var/crash/` \
-`sudo rm /var/crash/_usr_lib_virtualbox_VirtualBox.0.crash`
+I do not disable future crash reports by fixing this 
+  * `sudo ls /var/crash/` 
+  * `sudo rm /var/crash/_usr_lib_virtualbox_VirtualBox.0.crash`
 
 ### Installing virtualbox
-`sudo apt install virtualbox`
+  * `sudo apt install virtualbox`
 * Note: For UEFI, you will be asked to set a password for MOK
-`sudo reboot`
+  * `sudo reboot`
 * On reboot, a BIOS screen will come up for MOK management \
 enter password you just made in the virtualbox installer
 
